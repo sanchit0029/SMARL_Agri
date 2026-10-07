@@ -1,0 +1,14 @@
+{
+  "name": "agriprice-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AgriPrice AI — AI-Based Smart Agriculture Market Price Prediction & Selling Assistant",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "start": "node start-all.js",
+    "start:prod": "cd backend && node server.js"
+  }
+}
